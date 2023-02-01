@@ -11,7 +11,6 @@ function App() {
 
     const [resultArea, setResultArea] = useState(0) // ft^2
 
-
     const calculateArea = () => {
         const initialArea = (areaWidth * areaHeight) * 144
         const percentArea = initialArea / 100 * areaPercent
